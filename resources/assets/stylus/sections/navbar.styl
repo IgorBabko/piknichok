@@ -26,14 +26,24 @@ nav
         margin-right: 100px
         padding: 20px 0 0 0
         border-bottom: 1px solid white
-
-        &:hover
-            color: white
+        transition: all 0.2s ease-in-out
 
         i
+            color: white
             font-size: 29px
             padding-bottom: 10px
             display: inline-block
+
+        &:hover
+            color: orange
+            border-color: $green !important
+            i
+                color: $green
+
+        &:focus
+            color: white
+            i
+                color: white
 
     .navbar-nav > li > a
         padding: 23px 10px 

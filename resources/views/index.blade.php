@@ -2,4 +2,5 @@
 
 @section ('content')
     @include ('sections.main')
+    @include ('sections.discount')
 @stop

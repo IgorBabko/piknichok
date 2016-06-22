@@ -26,14 +26,26 @@ nav.navbar-default .navbar-brand {
   margin-right: 100px;
   padding: 20px 0 0 0;
   border-bottom: 1px solid #fff;
-}
-nav.navbar-default .navbar-brand:hover {
-  color: #fff;
+  transition: all 0.2s ease-in-out;
 }
 nav.navbar-default .navbar-brand i {
+  color: #fff;
   font-size: 29px;
   padding-bottom: 10px;
   display: inline-block;
+}
+nav.navbar-default .navbar-brand:hover {
+  color: #ffa500;
+  border-color: #6db33f !important;
+}
+nav.navbar-default .navbar-brand:hover i {
+  color: #6db33f;
+}
+nav.navbar-default .navbar-brand:focus {
+  color: #fff;
+}
+nav.navbar-default .navbar-brand:focus i {
+  color: #fff;
 }
 nav .navbar-nav > li > a {
   padding: 23px 10px;
@@ -104,6 +116,13 @@ nav .navbar-nav > li > a:hover {
 }
 .main .main-button:hover {
   background: #578f32;
+}
+.discount {
+  height: 90px;
+  background: #6db33f;
+  text-align: center;
+  font-size: 26px;
+  color: #fff;
 }
 body {
   height: 1000px;

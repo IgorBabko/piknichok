@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <i class="fa fa-tree" aria-hidden="true"></i>Piknichok
             </a>
             <div class="phones">

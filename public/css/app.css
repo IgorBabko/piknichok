@@ -123,6 +123,33 @@ nav .navbar-nav > li > a:hover {
   text-align: center;
   font-size: 26px;
   color: #fff;
+  padding-top: 25px;
+}
+.about {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.about .description {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  padding-right: 100px;
+}
+.about .description p {
+  font-size: 22px;
+}
+.about div {
+  font-size: 20px;
+}
+.about img {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  border: 2px solid #008000;
 }
 body {
   height: 1000px;
@@ -133,6 +160,12 @@ h1 {
   color: #fff;
   text-align: center;
   font-size: 72px;
+}
+h2 {
+  text-transform: uppercase;
+}
+.about {
+  padding: 100px 0;
 }
 
 /*# sourceMappingURL=app.css.map */

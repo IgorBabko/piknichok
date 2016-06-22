@@ -29,6 +29,16 @@ elixir(function(mix) {
     mix.copy('node_modules/font-awesome/fonts', 'public/fonts');
 
     /**
+     * Bootstrap css
+     **/
+    mix.copy('node_modules/bootstrap/dist/css/bootstrap.min.css', 'public/css');
+
+    /**
+     * Bootstrap js
+     **/
+    mix.copy('node_modules/bootstrap/dist/js/bootstrap.min.js', 'public/js');
+
+    /**
      * Stylus
      **/
     mix.stylus('app.styl', null, {

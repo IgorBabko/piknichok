@@ -5,8 +5,18 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "jquery": "^2.0.0",
+    "laravel-elixir": "^4.0.0",
     "gulp": "^3.9.1",
-    "laravel-elixir": "^5.0.0",
-    "bootstrap-sass": "^3.3.0"
+    "laravel-elixir-stylus": "^1.0.1",
+    "laravel-elixir-livereload": "^1.1.4",
+    "poststylus": "^0.2.3",
+    "rucksack-css": "^0.8.5",
+    "scrollmagic": "^2.0.5",
+    "slick-carousel": "^1.6.0"
   }
 }

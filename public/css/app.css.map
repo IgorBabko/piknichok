@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.styl","app.css"],"names":[],"mappings":"AAQA;EACI,oBAAA;CCPH","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n// utils/colors\n@import 'utils/colors'\n\n// sections\n@import 'sections/navbar'\n\nbody\n    background: $brown","body {\n  background: #52362b;\n}\n"],"sourceRoot":"/source/"}

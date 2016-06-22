@@ -1,0 +1,51 @@
+.main
+    background: url('../img/table_background.jpg')
+    min-height: calc(100vh - 70px)
+    min-width: 100vw
+    background-size: cover
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    flex-wrap: wrap
+
+    .main-content
+        z-index: 2
+        text-align: center
+
+    .main-description
+        color: white
+        font-size: 24px
+        font-family: 'Open Sans'
+
+    .overlay
+        position: absolute
+        top: 0
+        left: 0
+        min-height: calc(100vh - 70px)
+        min-width: 100vw
+        background-color: rgba(0,0,0,0.6) 
+        z-index: 1 
+
+    h1
+        color: white
+        font-family: 'Open Sans'
+        text-transform: uppercase
+        flex-basis: 100%
+
+        strong
+            color: $green
+
+    .main-button
+        background: $green
+        color: white
+        width: 300px
+        height: 60px 
+        border: none
+        font-size: 20px
+        font-weight: bold
+        transition: background 0.1s ease-in-out
+        margin-top: 50px
+
+        &:hover
+            background: darken($green, 20%)

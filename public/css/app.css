@@ -1,5 +1,113 @@
+nav {
+  border-radius: 0 !important;
+  border-top: 4px solid #6db33f !important;
+  background: #3c3735 !important;
+  border-bottom: none !important;
+  font-size: 22px;
+  height: 70px;
+  color: #fff;
+}
+nav .phones {
+  float: left;
+  height: 65px;
+  padding-top: 10px;
+}
+nav .phone {
+  display: block;
+  color: #c0c0c0;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+nav.navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 36px;
+  font-family: 'Lato';
+  margin-right: 100px;
+  padding: 20px 0 0 0;
+  border-bottom: 1px solid #fff;
+}
+nav.navbar-default .navbar-brand:hover {
+  color: #fff;
+}
+nav.navbar-default .navbar-brand i {
+  font-size: 29px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+nav .navbar-nav > li > a {
+  padding: 23px 10px;
+  font-family: 'Open Sans';
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  transition: background 0.1s ease-in-out;
+}
+nav .navbar-nav > li > a:hover {
+  color: #fff;
+  background: #6db33f !important;
+}
+.main {
+  background: url("../img/table_background.jpg");
+  min-height: calc(100vh - 70px);
+  min-width: 100vw;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.main .main-content {
+  z-index: 2;
+  text-align: center;
+}
+.main .main-description {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Open Sans';
+}
+.main .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: calc(100vh - 70px);
+  min-width: 100vw;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 1;
+}
+.main h1 {
+  color: #fff;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+.main h1 strong {
+  color: #6db33f;
+}
+.main .main-button {
+  background: #6db33f;
+  color: #fff;
+  width: 300px;
+  height: 60px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background 0.1s ease-in-out;
+  margin-top: 50px;
+}
+.main .main-button:hover {
+  background: #578f32;
+}
 body {
-  background: #52362b;
+  height: 1000px;
+  margin-top: 70px;
 }
 h1 {
   font-family: 'Lato';

@@ -1,5 +1,5 @@
 @extends ('layout')
 
 @section ('content')
-    <h1>Piknichok</h1>
+    @include ('sections.main')
 @stop

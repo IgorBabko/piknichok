@@ -1,0 +1,21 @@
+{
+  "name": "piknichok",
+  "description": "",
+  "main": "",
+  "authors": [
+    "emerge <i.i.babko@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/IgorBabko/piknichok",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bxslider-4": "^4.2.5"
+  }
+}

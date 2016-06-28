@@ -14,6 +14,16 @@ elixir(function(mix) {
     mix.copy('node_modules/jquery/dist/jquery.min.js', 'public/js');
 
     /**
+     * Bxslider css
+     **/
+    mix.copy('bower_components/bxslider-4/dist/jquery.bxslider.min.css', 'public/css');
+
+    /**
+     * Bxslider js
+     **/
+    mix.copy('bower_components/bxslider-4/dist/jquery.bxslider.min.js', 'public/js');
+
+    /**
      * Scrollmagic js
      **/
     mix.copy('node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js', 'public/js');

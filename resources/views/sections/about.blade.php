@@ -1,6 +1,6 @@
 <section class="about">
     <div class="container">
-        <h2 style="font-size: 48px">What is that?</h2>
+        <h2 style="font-size: 48px; font-weight: bold">Кратко о столике</h2>
         <div class="row">
             <div class="col-md-7 description">
                 <p>This is small description about what this product is all about and why this is

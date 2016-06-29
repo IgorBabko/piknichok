@@ -126,12 +126,23 @@
   background: #842222;
 }
 .discount {
-  height: 90px;
-  background: #6db33f;
-  text-align: center;
+  height: 250px;
   font-size: 26px;
   color: #fff;
-  padding-top: 25px;
+}
+.discount .row {
+  margin: 0;
+  height: 100%;
+}
+.discount .red-block {
+  background: #ff4040;
+  height: 100%;
+  padding: 40px;
+}
+.discount .blue-block {
+  background: #2871a5;
+  height: 100%;
+  padding: 40px;
 }
 .about {
   background: #f1f1f1;
@@ -149,6 +160,9 @@
   box-shadow: 0px 3px 10px 2px #444;
   margin: 0 auto;
   display: block;
+}
+.photos .row {
+  margin: 0;
 }
 .photos .row div {
   padding: 0;

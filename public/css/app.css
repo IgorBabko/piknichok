@@ -200,6 +200,33 @@
 .email button:hover {
   background: #578f32;
 }
+footer {
+  height: 100px;
+  background: #211e1d;
+  text-align: center;
+  padding: 20px 0;
+}
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  display: inline-block;
+  color: #fff;
+  padding: 0 10px;
+  font-size: 18px;
+}
+footer ul li a {
+  color: #6d6d6d;
+}
+footer ul li a:hover {
+  text-decoration: none;
+  color: #bdbdbd;
+}
+footer .copyright {
+  display: inline-block;
+  font-size: 18px;
+  color: #545454;
+}
 ::-webkit-input-placeholder {
   color: #f0f0f0;
 }

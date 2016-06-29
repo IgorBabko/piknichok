@@ -6,4 +6,5 @@
     @include ('sections.about')
     @include ('sections.specs')
     @include ('sections.email')
+    @include ('sections.footer')
 @stop

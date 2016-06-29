@@ -5,6 +5,7 @@
   font-size: 22px;
   height: 70px;
   color: #fff;
+  border-top: 5px solid #6db33f;
 }
 .navbar .phones {
   float: left;
@@ -125,6 +126,9 @@
   padding-top: 25px;
 }
 .about {
+  background: #f1f1f1;
+}
+.about .container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -134,21 +138,42 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.about .description {
+.about .container .description {
   -ms-flex-preferred-size: 60%;
       flex-basis: 60%;
   padding-right: 100px;
 }
-.about .description p {
-  font-size: 22px;
+.about .container .description p {
+  margin-top: 30px;
+  font-size: 18px;
 }
-.about div {
+.about .container div {
   font-size: 20px;
 }
-.about img {
+.about .container img {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
-  border: 2px solid #008000;
+  width: 400px;
+}
+.specs {
+  background: #6db33f;
+  color: #fff;
+  padding: 50px 0;
+}
+.specs .item-list {
+  margin-top: 70px;
+}
+.specs .item-list .item {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.specs .item-list .item i {
+  font-size: 128px;
+}
+.specs .item-list .item p {
+  color: #f3f3f3;
+  margin-top: 20px;
+  font-size: 22px;
 }
 body {
   height: 1000px;
@@ -177,6 +202,10 @@ h2 {
 .bx-wrapper .bxslider img {
   width: 100vw;
   height: calc(100vh - 70px);
+}
+.parallax-window {
+  height: 600px;
+  background: transparent;
 }
 
 /*# sourceMappingURL=app.css.map */

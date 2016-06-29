@@ -1,6 +1,6 @@
 (function() {
   $(function() {
-    return $('.bxslider').bxSlider({
+    $('.bxslider').bxSlider({
       auto: true,
       pause: 5000,
       mode: 'fade',
@@ -8,6 +8,9 @@
       controls: false,
       speed: 1500,
       pager: false
+    });
+    return $('.parallax-window').parallax({
+      imageSrc: '/img/table2.jpg'
     });
   });
 

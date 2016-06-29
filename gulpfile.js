@@ -24,6 +24,11 @@ elixir(function(mix) {
     mix.copy('bower_components/bxslider-4/dist/jquery.bxslider.min.js', 'public/js');
 
     /**
+     * Parallax js
+     **/
+    mix.copy('bower_components/parallax.js/parallax.min.js', 'public/js');
+
+    /**
      * Scrollmagic js
      **/
     mix.copy('node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js', 'public/js');

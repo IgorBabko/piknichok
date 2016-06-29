@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "bxslider-4": "^4.2.5"
+    "bxslider-4": "^4.2.5",
+    "parallax.js": "^1.4.2"
   }
 }

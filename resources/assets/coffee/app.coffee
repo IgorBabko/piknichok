@@ -7,3 +7,7 @@ $ ->
         controls: false
         speed: 1500
         pager: false
+
+    $('.parallax-window').parallax(
+        imageSrc: '/img/table2.jpg'
+    ) 

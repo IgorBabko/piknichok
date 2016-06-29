@@ -196,19 +196,39 @@
   font-size: 22px;
 }
 .reviews {
-  background: #6db33f;
+  background: #f1f1f1;
   padding: 50px 0;
-  color: #fff;
+  color: #000;
+}
+.reviews .reviews-block-wrapper {
+  position: relative;
+}
+.reviews .reviews-block-wrapper .fa-quote-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 3000;
+  font-size: 42px;
+  color: #929292;
+}
+.reviews .reviews-block-wrapper .fa-quote-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 3000;
+  font-size: 42px;
+  color: #929292;
 }
 .reviews .reviews-block {
   height: 200px;
-  background: #62993d;
-  padding: 30px;
+  background: #fff;
+  padding: 60px;
   margin-top: 20px;
+  box-shadow: 0 2px 3px 0px #c7c7c7;
 }
 .reviews .reviews-block .review {
   font-size: 24px;
-  color: #f1f1f1;
+  color: #929292;
   text-align: center;
 }
 .reviews .add-review-button {

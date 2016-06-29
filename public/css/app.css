@@ -150,6 +150,17 @@
   margin: 0 auto;
   display: block;
 }
+.photos .row div {
+  padding: 0;
+}
+.photos img {
+  width: 100%;
+  cursor: pointer;
+  transition: opacity 0.1s ease-in-out;
+}
+.photos img:hover {
+  opacity: 0.8;
+}
 .specs {
   background: #6db33f;
   color: #fff;

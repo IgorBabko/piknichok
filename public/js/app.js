@@ -9,8 +9,12 @@
       speed: 1500,
       pager: false
     });
-    return $('.parallax-window').parallax({
+    $('.parallax-window').parallax({
       imageSrc: '/img/table2.jpg'
+    });
+    return $('.reviews-block').slick({
+      dots: true,
+      arrows: false
     });
   });
 

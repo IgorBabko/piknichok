@@ -5,16 +5,16 @@
         <div class="row">
             <form method="POST" style="margin-top: 30px">
                 <div class="col-md-6">
-                    <input type="text" class="input-field" placeholder="Имя">
+                    <input type="text" class="input-field" placeholder="имя">
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="input-field" placeholder="Email">
+                    <input type="text" class="input-field" placeholder="email">
                 </div>
                 <div class="col-xs-12">
-                    <textarea class="textarea" placeholder="Что скажите?"></textarea>
+                    <textarea class="textarea" placeholder="что скажите?"></textarea>
                 </div>
                 <div class="col-xs-12">
-                    <button style="">Отправить</button>
+                    <button style="">отправить</button>
                 </div>
             </form>
         </div> 

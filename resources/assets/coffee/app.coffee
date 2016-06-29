@@ -11,3 +11,8 @@ $ ->
     $('.parallax-window').parallax(
         imageSrc: '/img/table2.jpg'
     ) 
+
+    $('.reviews-block').slick(
+        dots: true
+        arrows: false
+    )

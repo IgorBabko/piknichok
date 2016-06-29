@@ -175,6 +175,36 @@
   margin-top: 20px;
   font-size: 22px;
 }
+.reviews {
+  background: #6db33f;
+  padding: 50px 0;
+  color: #fff;
+}
+.reviews .reviews-block {
+  height: 200px;
+  background: #62993d;
+  padding: 30px;
+  margin-top: 20px;
+}
+.reviews .reviews-block .review {
+  font-size: 24px;
+  color: #f1f1f1;
+  text-align: center;
+}
+.reviews .add-review-button {
+  background: #a52a2a;
+  color: #fff;
+  width: 200px;
+  float: right;
+  height: 60px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background 0.1s ease-in-out;
+}
+.reviews .add-review-button:hover {
+  background: #842222;
+}
 .email {
   position: relative;
   color: #fff;

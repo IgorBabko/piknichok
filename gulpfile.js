@@ -29,6 +29,21 @@ elixir(function(mix) {
     mix.copy('bower_components/parallax.js/parallax.min.js', 'public/js');
 
     /**
+     * Slick carousel css 
+     **/
+    mix.copy('node_modules/slick-carousel/slick/slick.css', 'public/css')
+
+    /**
+     * Slick carousel default css theme
+     **/
+    mix.copy('node_modules/slick-carousel/slick/slick-theme.css', 'public/css')
+
+    /**
+     * Slick carousel js
+     **/
+    mix.copy('node_modules/slick-carousel/slick/slick.min.js', 'public/js')
+
+    /**
      * Scrollmagic js
      **/
     mix.copy('node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js', 'public/js');

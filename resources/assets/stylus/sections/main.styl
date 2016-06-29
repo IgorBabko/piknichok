@@ -36,16 +36,24 @@
         strong
             color: $green
 
-    .main-button
+    .main-button,
+    .main-button-brown
         background: $green
         color: white
-        width: 300px
-        height: 60px 
+        width: 250px
+        height: 80px 
         border: none
-        font-size: 20px
+        font-size: 26px
         font-weight: bold
         transition: background 0.1s ease-in-out
         margin-top: 50px
 
         &:hover
             background: darken($green, 20%)
+
+    .main-button-brown
+        background: brown
+        margin-left: 20px
+
+        &:hover
+            background: darken(brown, 20%)

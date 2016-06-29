@@ -103,19 +103,28 @@
 .main h1 strong {
   color: #6db33f;
 }
-.main .main-button {
+.main .main-button,
+.main .main-button-brown {
   background: #6db33f;
   color: #fff;
-  width: 300px;
-  height: 60px;
+  width: 250px;
+  height: 80px;
   border: none;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: bold;
   transition: background 0.1s ease-in-out;
   margin-top: 50px;
 }
-.main .main-button:hover {
+.main .main-button:hover,
+.main .main-button-brown:hover {
   background: #578f32;
+}
+.main .main-button-brown {
+  background: #a52a2a;
+  margin-left: 20px;
+}
+.main .main-button-brown:hover {
+  background: #842222;
 }
 .discount {
   height: 90px;
@@ -127,33 +136,20 @@
 }
 .about {
   background: #f1f1f1;
+  padding-bottom: 50px 0 100px;
 }
-.about .container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.about .container .description {
-  -ms-flex-preferred-size: 60%;
-      flex-basis: 60%;
-  padding-right: 100px;
-}
-.about .container .description p {
+.about p {
   margin-top: 30px;
   font-size: 18px;
 }
-.about .container div {
+.about div {
   font-size: 20px;
 }
-.about .container img {
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+.about img {
   width: 400px;
+  box-shadow: 0px 3px 10px 2px #444;
+  margin: 0 auto;
+  display: block;
 }
 .specs {
   background: #6db33f;
@@ -281,9 +277,6 @@ h1 {
 }
 h2 {
   text-transform: uppercase;
-}
-.about {
-  padding: 100px 0;
 }
 .bx-wrapper {
   margin: 0;

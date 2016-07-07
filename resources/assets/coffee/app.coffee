@@ -16,3 +16,10 @@ $ ->
         dots: true
         arrows: false
     )
+
+    clock = $('.your-clock').FlipClock
+        countdown: true
+        language: 'ru'
+
+    clock.setTime(5000)
+    clock.start()

@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-                <i class="fa fa-tree" aria-hidden="true"></i>Piknichok
+                <img src="/img/icons/picnic-table.png">Piknichok
             </a>
             <div class="phones">
                 <span class="phone"><i class="fa fa-phone" aria-hidden="true"></i> (+38) 066-083-3626</span>

@@ -17,6 +17,8 @@
   ],
   "dependencies": {
     "bxslider-4": "^4.2.5",
-    "parallax.js": "^1.4.2"
+    "parallax.js": "^1.4.2",
+    "jquery.countdown": "^2.1.0",
+    "flipclock": "FlipClock#^0.7.7"
   }
 }

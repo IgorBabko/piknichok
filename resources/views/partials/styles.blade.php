@@ -5,4 +5,5 @@
 <link rel="stylesheet" href="css/jquery.bxslider.min.css">
 <link rel="stylesheet" href="css/slick.css">
 <link rel="stylesheet" href="css/slick-theme.css">
+<link rel="stylesheet" href="css/flipclock.css">
 <link rel="stylesheet" href="css/app.css">

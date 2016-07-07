@@ -69,6 +69,16 @@ elixir(function(mix) {
     mix.copy('node_modules/bootstrap/dist/js/bootstrap.min.js', 'public/js');
 
     /**
+     * Flipclock css 
+     **/
+    mix.copy('bower_components/flipclock/compiled/flipclock.css', 'public/css');
+
+    /**
+     * Flipclock js
+     **/
+    mix.copy('bower_components/flipclock/compiled/flipclock.min.js', 'public/js');
+
+    /**
      * Stylus
      **/
     mix.stylus('app.styl', null, {

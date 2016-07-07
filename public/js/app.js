@@ -1,5 +1,6 @@
 (function() {
   $(function() {
+    var clock;
     $('.bxslider').bxSlider({
       auto: true,
       pause: 5000,
@@ -12,10 +13,16 @@
     $('.parallax-window').parallax({
       imageSrc: '/img/table2.jpg'
     });
-    return $('.reviews-block').slick({
+    $('.reviews-block').slick({
       dots: true,
       arrows: false
     });
+    clock = $('.your-clock').FlipClock({
+      countdown: true,
+      language: 'ru'
+    });
+    clock.setTime(5000);
+    return clock.start();
   });
 
 }).call(this);

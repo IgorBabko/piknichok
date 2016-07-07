@@ -8,6 +8,8 @@
 @import 'sections/about'
 @import 'sections/photos'
 @import 'sections/specs'
+@import 'sections/shipping'
+@import 'sections/offer'
 @import 'sections/reviews'
 @import 'sections/email'
 @import 'sections/footer'
@@ -23,7 +25,7 @@
 
 body
     height: 1000px
-    margin-top: 70px
+//    margin-top: 70px
     
 h1
     font-family: 'Lato'
@@ -37,7 +39,7 @@ h2
 .bx-wrapper
     margin: 0
     position: absolute
-    top: 70px 
+    top: 0 
     left: 0
     width: 100vw
     border: none
@@ -45,7 +47,7 @@ h2
     .bxslider
         img
             width: 100vw
-            height: calc(100vh - 66px)
+            height: 100vh 
 
 
 .parallax-window
@@ -81,3 +83,14 @@ textarea
     position: absolute
     top: 0
     left: 0
+
+// flipclock
+.flip-clock-divider .flip-clock-label
+    color: #cacaca
+
+.flip-clock-wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 50px 0
+    margin: 0

@@ -8,6 +8,7 @@
         @include ('partials.navbar')
         @yield ('content')
 
+        @include ('partials.photoswipe')
         @include ('partials.scripts')
         @include ('partials.livereload')
     </body>

@@ -19,6 +19,7 @@
     "bxslider-4": "^4.2.5",
     "parallax.js": "^1.4.2",
     "jquery.countdown": "^2.1.0",
-    "flipclock": "FlipClock#^0.7.7"
+    "flipclock": "FlipClock#^0.7.7",
+    "photoswipe": "^4.1.1"
   }
 }

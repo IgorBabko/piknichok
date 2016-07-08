@@ -21,11 +21,11 @@
         <form action="/order" method="POST">
             <div> 
                 <i class="fa fa-phone-square" aria-hidden="true"></i>
-                <input type="text" name="phone" id="phone">
+                <input type="text" name="phone" id="phone" placeholder="мобильный телефон">
             </div>
             <div>
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" placeholder="электронная почта">
             </div>
             <br>
             <button type="submit">Заказать</button>

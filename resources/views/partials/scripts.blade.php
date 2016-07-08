@@ -4,4 +4,6 @@
 <script src="js/parallax.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/flipclock.min.js"></script>
+<script src="js/photoswipe.min.js"></script>
+<script src="js/photoswipe-ui-default.min.js"></script>
 <script src="js/app.js"></script>

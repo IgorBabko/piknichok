@@ -79,6 +79,27 @@ elixir(function(mix) {
     mix.copy('bower_components/flipclock/compiled/flipclock.min.js', 'public/js');
 
     /**
+     * Photoswipe css
+     **/
+    mix.copy('bower_components/photoswipe/dist/photoswipe.css', 'public/css/photoswipe');
+
+    /**
+     * Photoswipe default skin css and images
+     **/
+    mix.copy('bower_components/photoswipe/dist/default-skin', 'public/css/photoswipe/default-skin');
+
+    /**
+     * Photoswipe js
+     **/
+    mix.copy('bower_components/photoswipe/dist/photoswipe.min.js', 'public/js');
+
+    /**
+     * Photoswipe ui js
+     **/
+    mix.copy('bower_components/photoswipe/dist/photoswipe-ui-default.min.js', 'public/js');
+
+
+    /**
      * Stylus
      **/
     mix.stylus('app.styl', null, {

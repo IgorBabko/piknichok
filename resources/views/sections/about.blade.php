@@ -9,6 +9,7 @@
                 <p>This is small description about what this product is all about and why this is
                 the BEST choice for YOU. And here goes some random text, complete
                 insane. Last sentence is gonna be this one. ;)</p>
+                <button class="gallery-button">Фотографии</button>
             </div>
             <div class="col-md-5">
                 <img src="img/table1.jpg">

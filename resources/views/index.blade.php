@@ -3,7 +3,7 @@
 @section ('content')
     @include ('sections.main')
     @include ('sections.about')
-    @include ('sections.photos')
+<!--    @include ('sections.photos') -->
     @include ('sections.specs')
     @include ('sections.shipping')
     @include ('sections.offer')

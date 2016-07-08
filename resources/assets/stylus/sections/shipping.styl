@@ -1,10 +1,12 @@
 .shipping
     padding: 50px 0
+    background-image: url('../img/about-background.png')
 
-    .heading 
-        font-size: 48px
-        color: #5d5d5d
-        display: block
+    h2
+        margin-bottom: 50px
+
+    .heading-container
+        display: block !important
 
     .row
         margin: 0
@@ -19,8 +21,25 @@
         &--dark
             background: #eee
 
+        .container > div img
+            margin: 0 auto
+            display: block
+
+        p
+            font-size: 20px 
+            color: gray
+
+            @media screen and (max-width: 768px)
+                font-size: 16px
+
     img
-        max-width: 300px
+        width: 200px
+        @media screen and (max-width: 992px)
+            width: 150px
+        @media screen and (max-width: 768px)
+            max-width: 94px
+        @media screen and (max-width: 480px)
+            max-width: 64px
 
     .step
         float: left
@@ -34,4 +53,5 @@
         font-size: 32px
         border-radius: 50%
         border: 2px solid black
+        display: none
 

@@ -8,6 +8,10 @@ $ ->
         speed: 1500
         pager: false
 
+    $('.main-parallax').parallax(
+        imageSrc: '/img/table11.jpg'
+    ) 
+
     $('.parallax-window').parallax(
         imageSrc: '/img/table2.jpg'
     ) 
@@ -17,11 +21,18 @@ $ ->
         arrows: false
     )
 
-    clock = $('.your-clock').FlipClock
+    mainClock = $('.main-countdown').FlipClock
         countdown: true
         language: 'ru'
 
-    clock.setTime(5000)
+    mainClock.setTime(15000)
+    mainClock.start()
+
+    clock = $('.countdown').FlipClock
+        countdown: true
+        language: 'ru'
+
+    clock.setTime(15000)
     clock.start()
 
 
@@ -29,21 +40,27 @@ $ ->
         pswpElement = document.querySelectorAll('.pswp')[0]
 
         images = [
-                src: 'https://farm2.staticflickr.com/1043/5186867718_06b2e9e551_b.jpg'
-                w: 964
-                h: 1024
+                src: '/img/table11.jpg'
+                w: 1440
+                h: 900
+                msrc: '/img/table11.jpg'
             ,
-                src: 'https://farm7.staticflickr.com/6175/6176698785_7dee72237e_b.jpg'
-                w: 1024
-                h: 683
+                src: '/img/table22.jpg'
+                w: 1440
+                h: 900
+            ,
+                src: '/img/table33.jpg'
+                w: 1440
+                h: 900
+            ,
+                src: '/img/table44.jpg'
+                w: 1440
+                h: 900
         ]
         
         pswpOptions =
-            history: false
-            focus: false
-            showAnimationDuration: 0
-            hideAnimationDuration: 0
-            index: 0
+            #bgOpacity: 0.7
+            showHideOpacity: true
         
         gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, images, pswpOptions)
         gallery.init()

@@ -17,7 +17,7 @@
         </div>
     </div>
     <div class="countdown-wrapper">
-        <div class="your-clock"></div>
+        <div class="countdown"></div>
         <form action="/order" method="POST">
             <div> 
                 <i class="fa fa-phone-square" aria-hidden="true"></i>

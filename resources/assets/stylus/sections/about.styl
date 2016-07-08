@@ -1,6 +1,6 @@
 .about
-    background: #f1f1f1
     padding: 50px 0 100px
+    background-image: url('../img/about-background.png')
 
     p
         margin-top: 30px
@@ -16,7 +16,7 @@
         display: block 
 
     .gallery-button
-        background: $green
+        background: #af1d1d
         color: white
         width: 200px
         height: 60px 
@@ -24,7 +24,11 @@
         font-size: 20px
         font-weight: bold
         transition: background 0.1s ease-in-out
+        border-radius: 4px
+        box-shadow: 0 1px 3px 0px #353535
+        margin-top: 30px
+        display: block
 
         &:hover
-            background: darken($green, 20%)
+            background: darken(#af1d1d, 20%)
 

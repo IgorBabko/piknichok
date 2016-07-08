@@ -3,16 +3,22 @@
         <h2 style="font-size: 48px; font-weight: bold">Кратко о столике</h2>
         <div class="row">
             <div class="col-md-7 description">
-                <p>This is small description about what this product is all about and why this is
-                the BEST choice for YOU. And here goes some random text, complete
-                insane. Last sentence is gonna be this one. ;)</p>
-                <p>This is small description about what this product is all about and why this is
-                the BEST choice for YOU. And here goes some random text, complete
-                insane. Last sentence is gonna be this one. ;)</p>
-                <button class="gallery-button">Фотографии</button>
+                <p>This is small description about what this product is all about
+                    and why this is the BEST choice for YOU. And here goes some
+                    random text, complete insane. Last sentence is gonna be this
+                    one. ;)</p>
+                <p>This is small description about what this product is all about
+                    and why this is the BEST choice for YOU. And here goes some
+                    random text, complete insane. Last sentence is gonna be this
+                    one. ;)</p>
             </div>
             <div class="col-md-5">
                 <img src="img/table1.jpg">
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="gallery-button">Фотографии</button>
+                </div>
             </div>
         </div>
     </div>

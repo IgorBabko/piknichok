@@ -11,10 +11,10 @@
             <a class="navbar-brand" href="/">
                 <img src="/img/icons/picnic-table.png">Piknichok
             </a>
-            <div class="phones">
+<!--            <div class="phones">
                 <span class="phone"><i class="fa fa-phone" aria-hidden="true"></i> (+38) 066-083-3626</span>
                 <span class="phone"><i class="fa fa-phone" aria-hidden="true"></i> (+38) 066-083-3626</span>
-            </div>
+            </div>-->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

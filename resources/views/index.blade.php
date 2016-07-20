@@ -7,7 +7,8 @@
     @include ('sections.specs')
     @include ('sections.shipping')
     @include ('sections.offer')
-    @include ('sections.reviews')
+    @include ('sections.order')
+    {{-- @include ('sections.reviews') --}}
     @include ('sections.email')
     @include ('sections.footer')
 @stop

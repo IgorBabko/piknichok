@@ -16,19 +16,4 @@
             </div>
         </div>
     </div>
-    <div class="countdown-wrapper">
-        <div class="countdown"></div>
-        <form action="/order" method="POST">
-            <div> 
-                <i class="fa fa-phone-square" aria-hidden="true"></i>
-                <input type="text" name="phone" id="phone" placeholder="мобильный телефон">
-            </div>
-            <div>
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <input type="email" name="email" id="email" placeholder="электронная почта">
-            </div>
-            <br>
-            <button type="submit">Заказать</button>
-        </form>
-    </div>
 </section>

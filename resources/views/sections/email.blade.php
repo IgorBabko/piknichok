@@ -1,4 +1,4 @@
-<div class="email parallax-window">
+<section class="email parallax-window">
     <div class="email-overlay"></div>
     <div class="container">
         <h2 style="font-size: 48px">Свяжитесь с нами</h2>
@@ -19,4 +19,4 @@
             </form>
         </div> 
     </div>
-</div>
+</section>

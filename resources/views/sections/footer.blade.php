@@ -1,11 +1,12 @@
 <footer>
     <ul>
-        <li><a href="#">Домой</a></li>
-        <li><a href="#">О нас</a></li>
-        <li><a href="#">Акции</a></li>
-        <li><a href="#">Заказать</a></li>
-        <li><a href="#">Отзывы</a></li>
-        <li><a href="#">Почта</a></li>
+        <li><a href="#" class="nav-list-link" data-section-id="main">Главная</a></li>
+        <li><a href="#" class="nav-list-link" data-section-id="about">О столике</a></li>
+        <li><a href="#" class="nav-list-link" data-section-id="specs">Преимущества</a></li>
+        <li><a href="#" class="nav-list-link" data-section-id="">Доствка</a></li>
+        <li><a href="#" class="nav-list-link" data-section-id="">Акции</a></li>
+        <li><a href="#" class="nav-list-link" data-section-id="">Заказ</a></li>
+        <li><a href="#" class="nav-list-link" data-section-id="">Контакты</a></li>
     </ul>
     <div class="copyright">&copy; Piknichok.ml Все права защищены</div> 
 </footer>

@@ -98,6 +98,16 @@ elixir(function(mix) {
      **/
     mix.copy('bower_components/photoswipe/dist/photoswipe-ui-default.min.js', 'public/js');
 
+    /**
+     * Owl carousel css
+     **/
+    mix.copy('bower_components/owl.carousel/dist/assets', 'public/css/owl-carousel');
+
+    /**
+     * Owl carousel js
+     **/
+    mix.copy('bower_components/owl.carousel/dist/owl.carousel.min.js', 'public/js');
+
 
     /**
      * Stylus

@@ -16,10 +16,10 @@ $ ->
         imageSrc: '/img/table2.jpg'
     ) 
 
-    $('.reviews-block').slick(
-        dots: true
-        arrows: false
-    )
+    # $('.reviews-block').slick(
+    #     dots: true
+    #     arrows: true
+    # )
 
     mainClock = $('.main-countdown').FlipClock
         countdown: true
@@ -66,6 +66,34 @@ $ ->
         gallery.init()
 
     $('.gallery-button').click(openPhotoSwipe)
+
+    $window = $(window)
+    $navLinks = $('.nav-list-link')
+    $htmlAndBody = $('html, body')
+    $sections = $('section')
+
+    $navLinks.on("click", (e) ->
+        e.preventDefault()
+        $self = $(this)
+        sectionId = $self.data("section-id")
+
+        $htmlAndBody.animate 
+            scrollTop: $("." + sectionId).offset().top - 50,
+            300,
+            () ->
+                $navLinks.removeClass("active")
+                $self.addClass("active")
+    )
+
+    $window.on('mousewheel scroll', ->
+        aboveBlocks = $sections.map (i, section) ->
+            if section.getBoundingClientRect().top <= $window.height() / 2
+                return section
+        
+        $navLinks.removeClass("active")
+        $($navLinks[aboveBlocks.length - 1]).addClass("active")
+    )
+
 
 
     return

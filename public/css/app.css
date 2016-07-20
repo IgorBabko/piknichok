@@ -64,8 +64,7 @@
       flex-wrap: wrap;
   color: #fff;
   padding-top: 60px;
-  background: #dc3b2f;
-  box-shadow: inset 0 0 10px 0px #3a3a3a;
+  background: rgba(0,0,0,0.4);
 }
 .main .main-image {
   width: 100%;
@@ -79,7 +78,7 @@
   font-size: 48px;
   font-weight: bold;
   padding: 10px;
-  color: #ffaca6;
+  color: #ff7d48;
 }
 .main .price--new {
   color: #82fb33;
@@ -165,7 +164,6 @@
 }
 .about {
   padding: 50px 0 100px;
-  background-image: url("../img/about-background.png");
 }
 .about p {
   margin-top: 30px;
@@ -242,7 +240,6 @@
 }
 .shipping {
   padding: 50px 0;
-  background-image: url("../img/about-background.png");
 }
 .shipping h2 {
   margin-bottom: 50px;
@@ -318,15 +315,11 @@
 .offer h2 {
   color: #fff;
   padding-bottom: 50px;
+  text-align: center;
 }
 .offer .list {
   padding: 50px 0;
   background: #af1d1d;
-}
-.offer .countdown-wrapper {
-  background: #f00;
-  background: #7b1414 !important;
-  box-shadow: inset 0 0 20px #4e0404;
 }
 .offer .list-wrapper {
   display: -ms-flexbox;
@@ -347,10 +340,6 @@
   margin: 0 auto;
   float: right;
 }
-.offer .conuntdown-wrapper {
-  background: #c51616;
-  border: 2px solid #000;
-}
 .offer .offer-list {
   list-style: disc;
 }
@@ -358,16 +347,46 @@
   color: #fff;
   font-size: 28px;
 }
-.offer form {
+.order {
+  padding: 50px 0;
+  background: #7b1414 !important;
+  box-shadow: inset 0 0 20px #4e0404;
+}
+.order h2 {
+  color: #ffdd73;
+  text-align: center;
+}
+.order .discount-icon {
+  width: 128px;
+}
+.order .price {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 10px;
+  color: #ff7d48;
+}
+.order .price--new {
+  color: #82fb33;
+}
+.order .price-block {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.order .message {
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+}
+.order form {
   text-align: center;
   padding: 0 0 50px 0;
 }
-.offer form div {
+.order form div {
   display: inline-block;
   position: relative;
   margin: 0 10px;
 }
-.offer form i {
+.order form i {
   position: absolute;
   top: 3px;
   left: 10px;
@@ -375,7 +394,7 @@
   padding-top: 5px;
   color: #ba5d04;
 }
-.offer form input {
+.order form input {
   border: none;
   height: 50px;
   background: #540c0c;
@@ -384,10 +403,10 @@
   color: #fff;
   padding: 0 25px 0 50px;
 }
-.offer form input:focus {
+.order form input:focus {
   outline: none !important;
 }
-.offer form button {
+.order form button {
   font-size: 26px;
   background: #24bd24;
   border: none;
@@ -396,13 +415,13 @@
   margin-top: 20px;
   box-shadow: 0px 2px 5px #290808;
 }
-.offer form button:hover {
+.order form button:hover {
   background: #1d971d;
 }
 .reviews {
+  background: #ffdc5d;
   padding: 50px 0;
   color: #000;
-  background-image: url("../img/wood_pattern.png");
 }
 .reviews .reviews-block-wrapper {
   position: relative;
@@ -445,6 +464,7 @@
   font-size: 22px;
   color: #929292;
   text-align: center;
+  outline: none;
 }
 @media screen and (max-width: 786px) {
   .reviews .reviews-block .review {
@@ -463,6 +483,7 @@
   transition: background 0.1s ease-in-out;
   border-radius: 4px;
   box-shadow: 0 1px 3px 0px #353535;
+  margin-top: 20px;
 }
 .reviews .add-review-button:hover {
   background: #842222;
@@ -493,7 +514,7 @@
   background: #578f32;
 }
 footer {
-  background: #211e1d;
+  background: #fff;
   text-align: center;
   padding: 20px 0;
 }
@@ -507,16 +528,18 @@ footer ul li {
   font-size: 18px;
 }
 footer ul li a {
-  color: #6d6d6d;
+  color: #a5a5a5;
+  font-weight: bold;
 }
 footer ul li a:hover {
   text-decoration: none;
-  color: #bdbdbd;
+  color: #717171;
 }
 footer .copyright {
   display: inline-block;
   font-size: 18px;
   color: #545454;
+  font-weight: 100;
 }
 ::-webkit-input-placeholder {
   color: #f0f0f0;
@@ -533,6 +556,11 @@ footer .copyright {
 body {
   height: 1000px;
 }
+.up .inn,
+.down .inn {
+  background: #ffd941;
+  color: #ff3c3c !important;
+}
 section {
   width: 100vw !important;
 }
@@ -541,6 +569,9 @@ h1 {
   color: #fff;
   text-align: center;
   font-size: 72px;
+}
+.nav-list-link.active {
+  background: #f2f2f2;
 }
 h2 {
   text-transform: uppercase;
@@ -603,5 +634,111 @@ textarea {
   padding: 50px 0;
   margin: 0;
 }
+.testimonial {
+  background: url("../img/testimonial-bg.png");
+}
+.testimonial-carousel .item {
+  padding: 25px 40px 40px;
+  background: rgba(34,34,34,0.8);
+  border-radius: 4px;
+}
+.testimonial-carousel .item p {
+  font-style: italic;
+  font-size: 24px;
+}
+.testimonial-carousel .item .client img,
+.testimonial-carousel .item .client ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+.testimonial-carousel .item .client img {
+  height: 50px;
+  width: 50px;
+  max-width: 100%;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 4px;
+}
+.testimonial-carousel .item .client-info {
+  margin-left: 10px;
+}
+.testimonial-carousel .item .client-info li {
+  text-align: left;
+}
+.testimonial-carousel .item .client-info li:first-child {
+  font-size: 18px;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  background: #e74c3c;
+}
+/* 
+ *  Core Owl Carousel CSS File
+ *  v1.3.3
+ */
+/* clearfix */
+/*
+.owl-carousel .owl-wrapper:after 
+    content: "."
+    display: block
+    clear: both
+    visibility: hidden
+    line-height: 0
+    height: 0
+*/
+/* display none until init */
+/*.owl-carousel
+    display: none
+    position: relative
+    width: 100%
+    -ms-touch-action: pan-y
+
+.owl-carousel .owl-wrapper
+    display: none
+    position: relative
+    -webkit-transform: translate3d(0px, 0px, 0px)
+
+.owl-carousel .owl-wrapper-outer
+    overflow: hidden
+    position: relative
+    width: 100%
+
+// .owl-stage-outer
+//     height: 300px
+
+.owl-carousel .owl-wrapper-outer.autoHeight
+    -webkit-transition: height 500ms ease-in-out
+    -moz-transition: height 500ms ease-in-out
+    -ms-transition: height 500ms ease-in-out
+    -o-transition: height 500ms ease-in-out
+    transition: height 500ms ease-in-out
+
+    
+.owl-carousel .owl-item
+    float: left
+    width: 945px !important
+    
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div
+    cursor: pointer
+
+.owl-controls 
+    -webkit-user-select: none
+    -khtml-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+
+*/
+/*
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item
+    -webkit-backface-visibility: hidden
+    -moz-backface-visibility:    hidden
+    -ms-backface-visibility:     hidden
+    -webkit-transform: translate3d(0,0,0)
+    -moz-transform: translate3d(0,0,0)
+    -ms-transform: translate3d(0,0,0)*/
 
 /*# sourceMappingURL=app.css.map */

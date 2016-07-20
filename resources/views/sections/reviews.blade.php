@@ -4,16 +4,30 @@
         <div class="reviews-block-wrapper">
             <i class="fa fa-quote-left" aria-hidden="true"></i>
             <i class="fa fa-quote-right" aria-hidden="true"></i>
-            <img src="/img/icons/badge.png">
+            {{-- <img src="/img/icons/badge.png"> --}}
             <div class="reviews-block">
-                <div class="review">
+                <div class="review" contenteditable="true">
                     This is small description about what this product is all about and why this is the BEST choice for YOU. And here goes some random text, complete insane. Last sentence is gonna be this one
                 </div>
-                <div class="review">
-                    second review   
+            </div>
+        </div>
+        <div class="reviews-block-wrapper">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            {{-- <img src="/img/icons/badge.png"> --}}
+            <div class="reviews-block">
+                <div class="review" contenteditable="true">
+                    This is small description about what this product is all about and why this is the BEST choice for YOU. And here goes some random text, complete insane. Last sentence is gonna be this one
                 </div>
-                <div class="review">
-                    third review   
+            </div>
+        </div>
+        <div class="reviews-block-wrapper">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+            {{-- <img src="/img/icons/badge.png"> --}}
+            <div class="reviews-block">
+                <div class="review" contenteditable="true">
+                    This is small description about what this product is all about and why this is the BEST choice for YOU. And here goes some random text, complete insane. Last sentence is gonna be this one
                 </div>
             </div>
         </div>

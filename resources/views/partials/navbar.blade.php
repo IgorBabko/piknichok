@@ -21,22 +21,25 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#">Главная</a>
+                    <a href="#" class="nav-list-link" data-section-id="main">Главная</a>
                 </li>
                 <li>
-                    <a href="#">О нас</a>
+                    <a href="#" class="nav-list-link" data-section-id="about">О столике</a>
                 </li>
                 <li>
-                    <a href="#">Акции</a>
+                    <a href="#" class="nav-list-link" data-section-id="specs">Преимущества</a>
                 </li>
                 <li>
-                    <a href="#">Заказ</a>
+                    <a href="#" class="nav-list-link" data-section-id="shipping">Доставка</a>
                 </li>
                 <li>
-                    <a href="#">Отзывы</a>
+                    <a href="#" class="nav-list-link" data-section-id="offer">Акции</a>
                 </li>
                 <li>
-                    <a href="#">Контакты</a>
+                    <a href="#" class="nav-list-link" data-section-id="order">Заказ</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-list-link" data-section-id="email">Контакты</a>
                 </li>
             </ul>
         </div>

@@ -2,6 +2,22 @@ footer
     background: white //#211e1d //#15230c
     text-align: center
     padding: 20px 0
+    
+    .vk-icon
+        margin: 0 auto
+        display: inline-block
+        font-size: 28px
+        margin: 0 0 20px 0
+        cursor: pointer
+        padding: 10px
+        border-radius: 50%
+        border: 1px solid black
+        color: black
+        
+        
+        &:hover
+            background: black
+            color: white
 
     ul
         padding: 0
@@ -12,9 +28,11 @@ footer
             padding: 0 10px
             font-size: 18px
 
-            a
+            a,
+            a:visited
                 color: #a5a5a5
                 font-weight: bold
+                text-decoration: none !important
 
                 &:hover
                     text-decoration: none
@@ -23,6 +41,6 @@ footer
 
     .copyright
         display: inline-block
-        font-size: 18px
+        font-size: 16px
         color: #545454
         font-weight: 100

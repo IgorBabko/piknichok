@@ -1,8 +1,9 @@
 <?php
 
+use App\Order;
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
+class OrdersTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,7 +12,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
-        $this->call(OrdersTableSeeder::class);
+        Order::truncate();
+        factory(Order::class, 20)->create();
     }
 }

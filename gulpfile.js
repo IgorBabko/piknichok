@@ -108,6 +108,18 @@ elixir(function(mix) {
      **/
     mix.copy('bower_components/owl.carousel/dist/owl.carousel.min.js', 'public/js');
 
+    /**
+     * Sweetalert css
+     **/
+    mix.copy('bower_components/sweetalert/dist/sweetalert.css', 'public/css');
+
+    /**
+     * Sweetalert js
+     **/
+    mix.copy('bower_components/sweetalert/dist/sweetalert.min.js', 'public/js');
+
+
+
 
     /**
      * Stylus

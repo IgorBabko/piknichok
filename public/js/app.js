@@ -84,6 +84,65 @@
       $navLinks.removeClass("active");
       return $($navLinks[aboveBlocks.length - 1]).addClass("active");
     });
+    $('.email-form').submit(function(e) {
+      var $this, request;
+      e.preventDefault();
+      $this = $(this);
+      request = $.ajax({
+        url: $this.attr('action'),
+        method: 'POST',
+        data: $this.serialize()
+      });
+      request.done(function(response) {
+        return swal("Отлично", "Спасибо большое за ваше письмо, мы свяжемся с Вам в ближайшее время", "success");
+      });
+      return request.fail(function(response) {
+        var error, errors, errorsString, i;
+        errors = JSON.parse(response.responseText);
+        errorsString = '<ul style="color: red">';
+        for (i in errors) {
+          error = errors[i];
+          errorsString += '<li>' + error + '</li>';
+        }
+        errorsString += '</ul>';
+        return swal({
+          title: "Пожалуйста, введите правильные данные",
+          text: errorsString,
+          type: "warning",
+          html: true
+        });
+      });
+    });
+    $('.order-form').submit(function(e) {
+      var $this, request;
+      e.preventDefault();
+      $this = $(this);
+      request = $.ajax({
+        url: $this.attr('action'),
+        method: 'POST',
+        data: $this.serialize()
+      });
+      request.done(function(response) {
+        return swal("Отлично", "Спасибо большое за Ваш заказ, мы свяжемся с Вам в ближайшее время", "success");
+      });
+      return request.fail(function(response) {
+        var error, errors, errorsString, i;
+        console.log(response.responseText);
+        errors = JSON.parse(response.responseText);
+        errorsString = '<ul style="color: red">';
+        for (i in errors) {
+          error = errors[i];
+          errorsString += '<li>' + error + '</li>';
+        }
+        errorsString += '</ul>';
+        return swal({
+          title: "Пожалуйста, введите правильные данные",
+          text: errorsString,
+          type: "warning",
+          html: true
+        });
+      });
+    });
   });
 
 }).call(this);

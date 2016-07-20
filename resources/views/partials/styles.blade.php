@@ -10,4 +10,5 @@
 <link rel="stylesheet" href="css/photoswipe/default-skin/default-skin.css">
 <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
 <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.css">
+<link rel="stylesheet" href="css/sweetalert.css">
 <link rel="stylesheet" href="css/app.css">

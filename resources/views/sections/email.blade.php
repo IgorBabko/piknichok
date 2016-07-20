@@ -3,15 +3,16 @@
     <div class="container">
         <h2 style="font-size: 48px">Свяжитесь с нами</h2>
         <div class="row">
-            <form method="POST" style="margin-top: 30px">
+            <form action="/email" method="POST" class="email-form">
+                {{ csrf_field() }}
                 <div class="col-md-6">
-                    <input type="text" class="input-field" placeholder="имя">
+                    <input type="text" class="input-field" name="name" placeholder="имя">
                 </div>
                 <div class="col-md-6">
-                    <input type="text" class="input-field" placeholder="email">
+                    <input type="email" class="input-field" name="email" placeholder="email">
                 </div>
                 <div class="col-xs-12">
-                    <textarea class="textarea" placeholder="что скажите?"></textarea>
+                    <textarea class="textarea" name="message" placeholder="содержимое"></textarea>
                 </div>
                 <div class="col-xs-12">
                     <button>Отправить</button>

@@ -12,3 +12,5 @@
  */
 
 Route::get('/', 'HomeController@index');
+Route::post('/email', 'HomeController@email');
+Route::post('/order', 'HomeController@order');

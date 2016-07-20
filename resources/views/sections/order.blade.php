@@ -10,7 +10,8 @@
                 <img src="/img/icons/discount_main.png" class="discount-icon">
                 <span class="price price--new">899 грн</span>
             </div>
-            <form action="/order" method="POST">
+            <form action="/order" method="POST" class="order-form">
+                {{ csrf_field() }}
                 <div> 
                     <i class="fa fa-phone-square" aria-hidden="true"></i>
                     <input type="text" name="phone" id="phone" placeholder="мобильный телефон">

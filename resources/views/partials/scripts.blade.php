@@ -7,4 +7,5 @@
 <script src="js/photoswipe.min.js"></script>
 <script src="js/photoswipe-ui-default.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="js/sweetalert.min.js"></script>
 <script src="js/app.js"></script>

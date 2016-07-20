@@ -95,5 +95,61 @@ $ ->
     )
 
 
+    $('.email-form').submit (e) ->
+        e.preventDefault()
+
+        $this = $(this)
+
+        request = $.ajax
+            url: $this.attr('action')
+            method: 'POST'
+            data: $this.serialize()
+
+        request.done (response) ->
+            swal("Отлично", "Спасибо большое за ваше письмо, мы свяжемся с Вам в ближайшее время", "success")
+
+        request.fail (response) ->
+            errors = JSON.parse(response.responseText)
+            errorsString = '<ul style="color: red">';
+
+            for i, error of errors
+                errorsString += '<li>' + error + '</li>';
+
+            errorsString += '</ul>';
+
+            swal
+                title: "Пожалуйста, введите правильные данные"
+                text: errorsString
+                type: "warning"
+                html: true
+
+    $('.order-form').submit (e) ->
+        e.preventDefault()
+
+        $this = $(this)
+
+        request = $.ajax
+            url: $this.attr('action')
+            method: 'POST'
+            data: $this.serialize()
+
+        request.done (response) ->
+            swal("Отлично", "Спасибо большое за Ваш заказ, мы свяжемся с Вам в ближайшее время", "success")
+
+        request.fail (response) ->
+            console.log(response.responseText);
+            errors = JSON.parse(response.responseText)
+            errorsString = '<ul style="color: red">';
+
+            for i, error of errors
+                errorsString += '<li>' + error + '</li>';
+
+            errorsString += '</ul>';
+
+            swal
+                title: "Пожалуйста, введите правильные данные"
+                text: errorsString
+                type: "warning"
+                html: true
 
     return
